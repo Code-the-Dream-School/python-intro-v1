@@ -1,0 +1,15 @@
+function: task_1a
+positional parameters: none
+keyword parameters: none
+return: None
+
+function: task_1b
+positional parameters: [10, 20]
+keyword parameters: none
+return: True
+
+function: task_1c
+positional parameters: none
+keyword parameters: {'user': 'Ricardo', 'status': 'Student'}
+return: logger_decorator
+
