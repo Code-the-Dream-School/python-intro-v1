@@ -1,0 +1,7 @@
+I reviewed the Durham County Library robots.txt file.
+
+The robots.txt file allows access to most of the website but restricts access to the /staff/ directory. It also blocks several AI-related crawlers and automated bots.
+
+When collecting data from a website, it is important to follow the robots.txt rules, avoid making excessive requests, and only gather publicly available information.
+
+Ethical web scraping helps respect website policies and reduces unnecessary load on website servers.
