@@ -1,0 +1,12 @@
+One challenge I faced was locating the OWASP Top 10 vulnerabilities.
+ I first tried scraping the main OWASP project page, but it
+  did not contain the A01-A10 entries directly. I solved this
+   by inspecting the website and navigating to the OWASP Top
+    10:2025 page, where the vulnerability links were listed.
+
+Another challenge was learning how to use Selenium, XPath, 
+and browser developer tools to find the correct elements.
+ After examining the HTML structure, I updated my script to 
+ collect the vulnerability titles and links and save them to
+  a CSV file.
+  
