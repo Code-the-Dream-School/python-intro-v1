@@ -17,7 +17,7 @@ Spend a few minutes reading it:
 - Is the top-level response a list, or a dict with a key that contains a list?
 - What fields does each record have?
 - Are any fields nested (dicts inside dicts, or lists inside dicts)?
-- Are any fields obviously missing or `null` for some records?
+- Are any fields missing or `null` for some records?
 
 > **Tip:** Install a browser extension like JSON Formatter to make raw JSON easier to read. VS Code also has a built-in prettifier — paste the response into a new `.json` file and use the format document shortcut (`Shift+Alt+F` on Windows, `Shift+Option+F` on Mac).
 
@@ -46,7 +46,7 @@ Name two things that could fail at runtime — a bad network connection, a missi
 
 ## Step 3 — Set Up the Starter Repository
 
-Clone the starter repository and verify your environment before writing any project code.
+Clone the [starter repository](https://github.com/Code-the-Dream-School/python-intro-final-project) and verify your environment before writing any project code.
 
 **Starter repository structure:**
 
@@ -90,7 +90,7 @@ You're not required to keep exactly this structure: rename functions, add parame
 
 ```bash
 # In your project directory:
-python -m venv venv
+python -m venv .venv
 source venv/bin/activate        # macOS/Linux
 # venv\Scripts\activate         # Windows
 

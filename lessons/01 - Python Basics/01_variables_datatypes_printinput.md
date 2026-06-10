@@ -168,7 +168,7 @@ Sometimes you need to change a value from one type to another. This is called **
 | `str()` | Converts to text | `str(42)` → `"42"` |
 | `bool()` | Converts to True/False | `bool(1)` → `True` |
 
-You might wonder why `bool(`) resolves to `True` — in Python, non-zero numbers are *truthy*.
+You might wonder why `bool()` resolves to `True` — in Python, non-zero numbers are *truthy*.
 
 ### Why Does This Matter?
 

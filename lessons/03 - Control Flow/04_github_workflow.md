@@ -89,12 +89,6 @@ git pull origin main
 
 This step is important — it keeps your local `main` in sync with GitHub so that next week's starting point is clean.
 
-## The Git / GitHub Workflow
-
-The following image shows the complete workflow. This week, we completed the full cycle.
-
-![Git Flow Diagram — Week 3](link-to-diagram)
-
 ---
 
 ## The Full Cycle — Your Weekly Reference
