@@ -5,3 +5,7 @@ The robots.txt file allows access to most of the website but restricts access to
 When collecting data from a website, it is important to follow the robots.txt rules, avoid making excessive requests, and only gather publicly available information.
 
 Ethical web scraping helps respect website policies and reduces unnecessary load on website servers.
+
+I also reviewed the Wikipedia robots.txt file. Wikipedia includes different rules for different user agents and restricts some areas from automated crawling. This shows that websites can allow some crawlers while limiting others.
+
+Robots.txt helps website owners control automated access to their site. Following robots.txt is important because it helps avoid overloading servers and respects the website owner's rules.
