@@ -18,7 +18,7 @@ Python has two types of loops: `for` (when you know how many times to repeat) an
 
 ## The `for` Loop
 
-A `for` loop runs once for each item in a sequence. You've already used this pattern with lists in Week 4:
+A `for` loop runs once for each item in a sequence — including the lists you built earlier this week:
 
 ```python
 fruits = ["apple", "banana", "cherry"]
