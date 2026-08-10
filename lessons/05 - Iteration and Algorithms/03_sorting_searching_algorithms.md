@@ -3,7 +3,7 @@
 **Objective**: By the end of this lesson, you will be able to:
   * Implement a linear search to find an item in a list
   * Explain how binary search works and why it requires a sorted list
-  * Implement a simple sorting algorithm (selection sort)
+  * Implement two simple sorting algorithms (selection sort and bubble sort)
   * Understand that different algorithms have different performance characteristics
 
 ---
@@ -51,6 +51,22 @@ For `linear_search([4, 7, 2, 9, 1, 5, 8], 9)`:
 | 4 | 3 | 9 | Yes, return 3 |
 
 Linear search works on any list, sorted or not. The downside is that if the list has 1,000,000 items and the target is last, you have to check all 1,000,000.
+
+### Check Your Understanding
+
+**Question 1:** What does `return -1` mean in a search function?
+
+* A) The item is at the last position
+* B) The item was not found
+* C) There was an error
+* D) The list is empty
+
+<details>
+<summary>Answer</summary>
+
+**B) The item was not found.** Returning `-1` is a common convention to indicate that the search target doesn't exist in the list.
+
+</details>
 
 ---
 
@@ -108,6 +124,22 @@ Trace through `binary_search([2, 4, 6, 8, 10, 12, 14], 10)` on paper. Write down
 
 > "I traced through a binary search for 10 in the list [2, 4, 6, 8, 10, 12, 14]. Here are my steps: [your trace]. Can you verify whether I tracked low, high, and mid correctly?"
 
+### Check Your Understanding
+
+**Question 2:** You have an unsorted list of 100 items. Which search algorithm can you use?
+
+* A) Only binary search
+* B) Only linear search
+* C) Either one
+* D) Neither
+
+<details>
+<summary>Answer</summary>
+
+**B) Only linear search.** Binary search requires the list to be sorted first. Linear search works on any list, sorted or not.
+
+</details>
+
 ---
 
 ## Selection Sort
@@ -148,11 +180,89 @@ For `[64, 25, 12, 22, 11]`:
 
 Notice the nested loop: the outer loop picks each position, and the inner loop finds the smallest item to put there. This is why sorting is generally slower than searching.
 
+### Check Your Understanding
+
+**Question 3:** In selection sort, what happens during each pass?
+
+* A) The largest item is moved to the end
+* B) The smallest remaining item is moved to the next sorted position
+* C) Two random items are swapped
+* D) The list is split in half
+
+<details>
+<summary>Answer</summary>
+
+**B) The smallest remaining item is moved to the next sorted position.** Each pass finds the minimum value in the unsorted portion and swaps it into place.
+
+</details>
+
+---
+
+## Bubble Sort
+
+**Bubble sort** takes a different approach: instead of searching for the smallest item, it repeatedly compares *neighboring* pairs and swaps them if they're out of order. After enough passes, the largest values "bubble" to the end of the list.
+
+The algorithm:
+1. Compare the first two items; swap them if the left one is larger
+2. Move one position right and compare the next pair
+3. Continue to the end of the list — the largest item is now in its final position
+4. Repeat, ignoring the items already settled at the end
+
+```python
+def bubble_sort(data):
+    for i in range(len(data) - 1):
+        for j in range(len(data) - 1 - i):
+            if data[j] > data[j + 1]:
+                data[j], data[j + 1] = data[j + 1], data[j]
+    return data
+
+numbers = [64, 25, 12, 22, 11]
+print(bubble_sort(numbers))   # Output: [11, 12, 22, 25, 64]
+```
+
+### How It Works
+
+For `[64, 25, 12, 22, 11]`:
+
+| Pass | Action | List after pass |
+|------|--------|-----------------|
+| 1 | 64 gets swapped rightward past every smaller value | `[25, 12, 22, 11, 64]` |
+| 2 | 25 bubbles to position 3 | `[12, 22, 11, 25, 64]` |
+| 3 | 22 bubbles to position 2 | `[12, 11, 22, 25, 64]` |
+| 4 | 12 and 11 swap | `[11, 12, 22, 25, 64]` |
+
+Notice `len(data) - 1 - i` in the inner loop. After each pass, one more item is guaranteed to be in its final spot at the end, so there's no need to compare it again.
+
+### Bubble Sort vs. Selection Sort
+
+Both use a nested loop, and both are much slower than Python's built-in `sort()`. The difference is in the work they do:
+
+* **Selection sort** scans for the minimum, then makes **one swap per pass**.
+* **Bubble sort** swaps as it goes, so a single pass can make **many swaps**.
+
+For the same list, bubble sort usually performs more swaps than selection sort — one reason it's rarely used in practice, even though it's one of the most commonly taught sorting algorithms.
+
+### Check Your Understanding
+
+**Question 4:** After the first full pass of bubble sort, which item is guaranteed to be in its final position?
+
+* A) The smallest item, at the front of the list
+* B) The largest item, at the end of the list
+* C) The middle item
+* D) None — bubble sort only guarantees order after every pass is finished
+
+<details>
+<summary>Answer</summary>
+
+**B) The largest item, at the end of the list.** Each comparison pushes the larger of the two values to the right, so the largest value keeps moving right until it reaches the end. That's why the inner loop can skip one more position on every pass.
+
+</details>
+
 ---
 
 ## Built-in Tools vs. Manual Algorithms
 
-Python's built-in `sort()` and `sorted()` are much faster than selection sort. For any real project, use the built-in tools:
+Python's built-in `sort()` and `sorted()` are much faster than selection sort or bubble sort. For any real project, use the built-in tools:
 
 ```python
 numbers = [64, 25, 12, 22, 11]
@@ -171,61 +281,9 @@ The value of implementing search and sort manually is understanding **how** they
 - Understand why some approaches are faster than others
 - Debug code that processes data in loops
 
----
+### Check Your Understanding
 
-## Videos
-
-**"Linear and Binary Search Algorithms Explained in Python"**
-
-[Watch the video](https://www.youtube.com/watch?v=u46nNK4lmeE) for a clear visual explanation of how linear search and binary search work, with full Python implementations.
-
----
-
-## Check for Understanding
-
-**Question 1:** You have an unsorted list of 100 items. Which search algorithm can you use?
-
-* A) Only binary search
-* B) Only linear search
-* C) Either one
-* D) Neither
-
-<details>
-<summary>Answer</summary>
-
-**B) Only linear search.** Binary search requires the list to be sorted first. Linear search works on any list, sorted or not.
-
-</details>
-
-**Question 2:** What does `return -1` mean in a search function?
-
-* A) The item is at the last position
-* B) The item was not found
-* C) There was an error
-* D) The list is empty
-
-<details>
-<summary>Answer</summary>
-
-**B) The item was not found.** Returning `-1` is a common convention to indicate that the search target doesn't exist in the list.
-
-</details>
-
-**Question 3:** In selection sort, what happens during each pass?
-
-* A) The largest item is moved to the end
-* B) The smallest remaining item is moved to the next sorted position
-* C) Two random items are swapped
-* D) The list is split in half
-
-<details>
-<summary>Answer</summary>
-
-**B) The smallest remaining item is moved to the next sorted position.** Each pass finds the minimum value in the unsorted portion and swaps it into place.
-
-</details>
-
-**Question 4:** For production code, what should you use instead of writing your own sort?
+**Question 5:** For production code, what should you use instead of writing your own sort?
 
 * A) `list.selection_sort()`
 * B) `list.sort()` or `sorted()`
@@ -238,6 +296,14 @@ The value of implementing search and sort manually is understanding **how** they
 **B) `list.sort()` or `sorted()`.** Python's built-in sorting is highly optimized and should be used for any real project. Manual implementations are for learning how algorithms work.
 
 </details>
+
+---
+
+## Videos
+
+**"Linear and Binary Search Algorithms Explained in Python"**
+
+[Watch the video](https://www.youtube.com/watch?v=u46nNK4lmeE) for a clear visual explanation of how linear search and binary search work, with full Python implementations.
 
 ---
 
