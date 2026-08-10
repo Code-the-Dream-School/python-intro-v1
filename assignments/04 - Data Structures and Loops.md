@@ -76,8 +76,8 @@ Using loops and data structure operations, your script must:
 
 Example output:
 ```
-Top scorer:       Sara (91)
-Class average:    81.3
+Top scorer:       Priya (95)
+Class average:    81.25
 Subjects offered: {'Python', 'Data', 'Web'}
 High scorers:     ['Jazmine', 'Sara', 'Priya', 'Mia', 'Eli']
 ```
