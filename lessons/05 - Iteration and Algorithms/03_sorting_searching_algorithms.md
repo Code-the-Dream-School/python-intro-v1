@@ -205,15 +205,20 @@ Notice the nested loop: the outer loop picks each position, and the inner loop f
 The algorithm:
 1. Compare the first two items; swap them if the left one is larger
 2. Move one position right and compare the next pair
-3. Continue to the end of the list — the largest item is now in its final position
-4. Repeat, ignoring the items already settled at the end
+3. Continue to the end of the list — that's one full pass
+4. Repeat the passes until a complete pass makes no swaps at all, which means the list is sorted
+
+We track whether any swap happened during a pass using a `swapped` flag. As long as a pass makes at least one swap, we go around again; the first pass that makes zero swaps tells us the list is already in order, and we stop.
 
 ```python
 def bubble_sort(data):
-    for i in range(len(data) - 1):
-        for j in range(len(data) - 1 - i):
-            if data[j] > data[j + 1]:
-                data[j], data[j + 1] = data[j + 1], data[j]
+    swapped = True
+    while swapped:
+        swapped = False
+        for i in range(len(data) - 1):
+            if data[i] > data[i + 1]:
+                data[i], data[i + 1] = data[i + 1], data[i]
+                swapped = True
     return data
 
 numbers = [64, 25, 12, 22, 11]
@@ -230,8 +235,9 @@ For `[64, 25, 12, 22, 11]`:
 | 2 | 25 bubbles to position 3 | `[12, 22, 11, 25, 64]` |
 | 3 | 22 bubbles to position 2 | `[12, 11, 22, 25, 64]` |
 | 4 | 12 and 11 swap | `[11, 12, 22, 25, 64]` |
+| 5 | no swaps needed — the list is already sorted | `[11, 12, 22, 25, 64]` |
 
-Notice `len(data) - 1 - i` in the inner loop. After each pass, one more item is guaranteed to be in its final spot at the end, so there's no need to compare it again.
+That final pass is the important one: because it makes zero swaps, `swapped` stays `False` and the `while` loop stops. The flag is how the algorithm knows it's finished without being told the number of passes in advance.
 
 ### Bubble Sort vs. Selection Sort
 
