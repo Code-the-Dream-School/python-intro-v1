@@ -1,8 +1,8 @@
 # Git Setup & Configuration
 
-Last week you created a repository on GitHub. Right now it only exists remotely — in the cloud. This week, you'll install Git on your computer, connect it to your GitHub account, and **clone** your repository so that a local copy lives on your machine as well.
+Last week you created a personal repository (`firstname-lastname-python`) and submitted Assignment 1 into it through GitHub's website. That repository was just for Week 1. **From this week on, all of your homework lives in a single shared repository maintained by Code the Dream** — you'll make your own copy of it (a **fork**) and work in that copy for the rest of the course. You can leave the Week 1 repo alone; you won't need it again.
 
-By the end of this week, your local machine and GitHub will be in sync and you'll be ready to start committing real code.
+This week you'll install Git on your computer, connect it to your GitHub account, and **fork and clone** the homework repository so that a local copy lives on your machine. By the end of the week, your local machine and GitHub will be in sync and you'll be ready to start committing real code.
 
 ## Installing and Configuring Git
 
@@ -54,26 +54,9 @@ Hi your-username! You've successfully authenticated, but GitHub does not provide
 
 If you see that message, you're connected. If you see a permission error instead, reach out to a mentor before moving on — the next steps depend on this working.
 
-## Assignment — Verify Your Setup
-
-Let's confirm that Git, GitHub, and Python are all working together.
-
-- [ ] Navigate into your cloned repository in the terminal: `cd firstname-lastname-python`
-- [ ] Create a new file called `hello.py`
-- [ ] Open it in VS Code and add one line: `print("Hello, my name is Your Name")`
-- [ ] Run the script from your terminal to confirm it works: `python hello.py`
-- [ ] Stage and commit the file:
-  ```bash
-  git add hello.py
-  git commit -m "add hello.py"
-  ```
-- [ ] Push your changes to GitHub: `git push origin main`
-- [ ] Go to your GitHub repository page and confirm that `hello.py` appears there
-- [ ] Paste the link to your repository into the submission form when you submit this week
-
 ## Forking and Cloning the Homework Repository
 
-Starting this week, all of your homework lives in a shared repository maintained by Code the Dream. You won't work in that shared repo directly. Instead, you'll make your own copy of it — a **fork** — that lives under your own GitHub account. You'll do all your work in your fork, and submit pull requests against your fork.
+Starting this week, all of your homework lives in a shared repository maintained by Code the Dream. You won't work in that shared repo directly. Instead, you'll make your own copy of it, a **fork**, that lives under your own GitHub account. You'll do all your work in your fork, and submit pull requests against your fork.
 
 **Why fork instead of clone directly?** The shared repo includes data files you'll use in assignments, and it's owned by Code the Dream. Forking gives you your own full copy that you can push branches to and open pull requests against, without needing write access to the shared repo. Everyone in the class works from their own fork.
 
@@ -119,3 +102,21 @@ When you open a PR, check the base branch dropdown at the top of the page:
 If the base shows `Code-the-Dream-School`, click the base repository dropdown and change it to `your-username/python-intro-homework` before creating the PR. Your PR URL should read `github.com/your-username/python-intro-homework/pull/[number]` — if you see `Code-the-Dream-School` in that URL, the PR is pointed at the wrong place. Close it and open a new one against your own fork.
 
 Sending a PR to the original repo by accident won't break anything — the maintainers simply won't merge it — but it means your work isn't submitted correctly and your mentor can't review it. When in doubt, double-check the base repository name.
+
+## Verify Your Setup
+
+Before starting the assignment, do a quick smoke test to confirm that Git, GitHub, and Python are all working together. You'll do this inside the fork you just cloned.
+
+- [ ] Navigate into your cloned fork in the terminal: `cd python-intro-homework`
+- [ ] Create a new file called `hello.py`
+- [ ] Open it in VS Code and add one line: `print("Hello, my name is Your Name")`
+- [ ] Run the script from your terminal to confirm it works: `python hello.py`
+- [ ] Stage and commit the file:
+  ```bash
+  git add hello.py
+  git commit -m "add hello.py"
+  ```
+- [ ] Push your changes to GitHub: `git push origin main`
+- [ ] Go to your fork's page on GitHub (`github.com/your-username/python-intro-homework`) and confirm that `hello.py` appears there
+
+If `hello.py` shows up on your fork, everything is connected and you're ready to start the assignment. The graded work goes on its own `assignment-2` branch — see the assignment instructions for the branch, folder, and pull request steps.
