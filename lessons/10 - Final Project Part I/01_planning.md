@@ -128,8 +128,8 @@ You're not required to keep exactly this structure: rename functions, add parame
 ```bash
 # In your project directory:
 python -m venv .venv
-source venv/bin/activate        # macOS/Linux
-# venv\Scripts\activate         # Windows
+source .venv/bin/activate       # macOS/Linux
+# .venv\Scripts\activate        # Windows
 
 pip install requests
 pip freeze > requirements.txt

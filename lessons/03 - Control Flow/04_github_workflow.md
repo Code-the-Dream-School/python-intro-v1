@@ -1,10 +1,10 @@
 # GitHub Workflow: Branches, Commits, and Pull Requests
 
-Last week you installed Git, connected it to GitHub, and pushed your first file. This week you'll learn the full workflow you'll use for every assignment going forward: creating a **branch**, committing your changes, and opening a **pull request**.
+Last week you set up Git, forked the homework repository, and opened your first pull request from an `assignment-2` branch. This week we'll slow down and unpack that same workflow — branches, commits, and pull requests — so you understand what each step is actually doing. It's the exact sequence you'll repeat for every assignment for the rest of the course.
 
 ## Why Branches?
 
-So far you've been committing directly to `main`. In a real project, `main` represents the stable, working version of your code. Branches let you do new work in an isolated space without touching `main` until you're ready.
+For last week's setup check you committed straight to `main`, but real work belongs on its own branch. In a real project, `main` represents the stable, working version of your code. Branches let you do new work in an isolated space without touching `main` until you're ready.
 
 Think of `main` as a clean copy of your project. Each week, you'll create a new branch off of it, do your work there, and then merge it back in once it's been reviewed. This keeps your history organized and makes it easy for a reviewer to see exactly what changed.
 
@@ -20,7 +20,7 @@ git pull origin main
 Then create a new branch for this week's work:
 
 ```bash
-git checkout -b week-3
+git checkout -b assignment-3
 ```
 
 The `-b` flag creates the branch and switches to it in one step. You can verify you're on the right branch with:
@@ -29,11 +29,11 @@ The `-b` flag creates the branch and switches to it in one step. You can verify 
 git branch --show-current
 ```
 
-You should see `week-3`.
+You should see `assignment-3`.
 
 ## Making Changes
 
-Open your repository in VS Code and make some changes — add a new Python file or update `hello.py` with something from what you've been practicing. Save your work when you're done.
+Open your repository in VS Code and make some changes — add a new Python file (put your assignment work inside a `week-3/assignment-3/` folder) or update `hello.py` with something from what you've been practicing. Save your work when you're done.
 
 ## Staging and Committing
 
@@ -63,7 +63,7 @@ git commit -m "describe what you added or changed"
 Then push your branch to GitHub:
 
 ```bash
-git push origin week-3
+git push origin assignment-3
 ```
 
 ## Opening a Pull Request
@@ -71,7 +71,7 @@ git push origin week-3
 ### Watch this video on creating a Pull Request:
 [Creating a Pull Request Video](https://www.youtube.com/watch?v=89hjRfX0dS4)
 
-- [ ] Go to your GitHub repository page — you should see a notice that `week-3` had a recent push, with a green **Compare & pull request** button. Click it.
+- [ ] Go to your GitHub repository page — you should see a notice that `assignment-3` had a recent push, with a green **Compare & pull request** button. Click it.
 - [ ] Add any notes or questions for your reviewer in the description field
 - [ ] Click **Create pull request**
 - [ ] Copy the URL of your pull request (it will look like `https://github.com/your-username/python-intro-homework/pull/1`) and paste it into your assignment submission form
@@ -100,7 +100,7 @@ From here on, you will repeat this sequence for every assignment:
 ```bash
 git checkout main
 git pull origin main
-git checkout -b week-4        # replace with the current week number
+git checkout -b assignment-4  # replace with the current assignment number
 ```
 
 **As you work — save your progress:**
@@ -109,7 +109,7 @@ git checkout -b week-4        # replace with the current week number
 git status                    # see what's changed (run this often)
 git add .                     # stage all changes
 git commit -m "describe what you did and why"
-git push origin week-4        # send your branch to GitHub
+git push origin assignment-4  # send your branch to GitHub
 ```
 
 You can repeat the `add → commit → push` steps as many times as you like within a week. Committing often gives you more points to return to if something goes wrong — you don't have to wait until you're finished.
@@ -125,12 +125,14 @@ git pull origin main          # bring the merged changes back to your local mach
 
 > **Common errors:**
 > - *"nothing to commit, working tree clean"* — You haven't made any changes since your last commit, or you forgot to save the file.
-> - *"fatal: The current branch has no upstream branch"* — Run the full push command: `git push --set-upstream origin week-4`
+> - *"fatal: The current branch has no upstream branch"* — Run the full push command: `git push --set-upstream origin assignment-4`
 > - *"Your branch is behind 'origin/main'"* — Run `git pull origin main` to sync before continuing.
 
-## Assignment — Your First PR
+## Practice — Run the Full Cycle
 
-- [ ] Starting from `main`, create a new branch called `week-3`
+This is a quick rehearsal of the workflow; your graded work is in the separate assignment file. Practice the full cycle end to end:
+
+- [ ] Starting from `main`, create a new branch called `assignment-3`
 - [ ] Add a new Python file to your project. It can be anything you've been working on in the course so far — a script with a function, a loop, or a simple program
 - [ ] Stage and commit your changes with a descriptive commit message
 - [ ] Push your branch to GitHub and open a pull request

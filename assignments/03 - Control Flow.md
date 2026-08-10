@@ -161,7 +161,8 @@ This is your repeatable workflow for every assignment. Wherever you see `assignm
 
 **Get a clean starting point:**
 
-```git checkout main
+```bash
+git checkout main
 git pull origin main
 git checkout -b assignment-N   # replace N: e.g. assignment-3
 ```
@@ -170,7 +171,7 @@ git checkout -b assignment-N   # replace N: e.g. assignment-3
 
 **Save your progress:**
 
-```
+```bash
 git status                    # see what's changed (run this often)
 git add .                     # stage all changes
 git commit -m "describe what you did and why"
@@ -183,9 +184,9 @@ Repeat `add → commit → push` as often as you like. Committing often gives yo
 
 On GitHub, open a pull request from `assignment-N` into main. Confirm the base repository is your own fork (`your-username/python-intro-homework`), not `Code-the-Dream-School`.
 
-**Close the looop:**
+**Close the loop:**
 
-```
+```bash
 git checkout main
 git pull origin main          # bring the merged changes back to your local machine
 ```
