@@ -2,9 +2,9 @@
 
 ## Submission Instructions
 
-This week's work is done in **Google Colab**, a free cloud notebook you run in your browser at [colab.research.google.com](https://colab.research.google.com/) — we'll work on local setup next week.
+This week's work is done in **Google Colab**, a free cloud notebook you run in your browser at [colab.research.google.com](https://colab.research.google.com/). We'll work on local setup next week.
 
-<!-- TODO: replace with a short video (or written walkthrough) showing how to use Google Colab. The previous link was an online-python.com walkthrough and no longer applies. -->
+Here's a short video describing how to submit this week's assignment in Colab: https://youtu.be/WQAGudXZ5rs
 
 1. **Keep your whole script in one cell.** Colab lets you split code across multiple cells, but for this assignment put all of your code in a **single cell** so it runs top to bottom, just like the `.py` file you'll submit. See the Simple Scripts lesson for why this matters.
 2. **Saving:** Colab saves automatically to your Google Drive as long as you're signed in with your Google account, so your notebook will be there next time. You can also save any time with **File → Save**.
