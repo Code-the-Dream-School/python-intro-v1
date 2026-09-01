@@ -13,7 +13,7 @@
 
 ## Getting Started
 
-For this first week, we'll be writing Python code in an **Google Colab** — a cloud-based environment Jupyter Notebook environment that lets you write, execute, and share Python code in the browser. You'll work with Jupyter notebooks again in Python for Data Analysis, they are a popular tool for data professionals looking to write and share code.
+For this first week, we'll be writing Python code in **Google Colab** — a cloud-based Jupyter Notebook environment that lets you write, execute, and share Python code in the browser. You'll work with Jupyter notebooks again in Python for Data Analysis; they are a popular tool for data professionals looking to write and share code.
 
 1. Go to [colab.research.google.com](https://colab.research.google.com/) and sign in with your Google account.
 2. Click New notebook.
@@ -322,7 +322,7 @@ print(x % y)
 
 > "I'm learning Python operators. Looking at this code: [paste the code above]. I predict the output will be [your predictions] because [your reasoning]. Am I correct? If not, what am I misunderstanding?"
 
-3. After the AI responds, run the code in [online-python.com](https://www.online-python.com/) to verify.
+3. After the AI responds, run the code in your Google Colab notebook to verify.
 
 ---
 
