@@ -4,7 +4,7 @@
   * Understand how Python runs code from top to bottom
   * Write a complete script that combines variables, `input()`, `print()`, and operators
   * Build a program step by step, testing as you go
-  * Save and share your work from the online IDE
+  * Save and share your work from Google Colab
 
 ---
 
@@ -182,26 +182,28 @@ Once you've confirmed it's working, delete the `DEBUG` line.
 
 ---
 
-## Using the Online IDE
+## Using Google Colab
 
-For this week, we're using [online-python.com](https://www.online-python.com/) to write and run our code. Here's what you need to know:
+For this week, we're using [Google Colab](https://colab.research.google.com/) to write and run our code. Here's what you need to know:
 
 ### Writing and Running Code
 
-- Type your code in the **editor panel** on the left
-- Click the **Run** button (or press the play icon) to execute your script
-- Output appears in the **console panel** on the right
-- If your script uses `input()`, type your response in the console and press Enter
+- Type your code into a **cell** — the box that reads "start coding"
+- Click the **play button** to the left of the cell to run it (the first run takes a few seconds to start up)
+- Output appears **below the cell**
+- If your script uses `input()`, an input box appears below the cell — type your response there and press Enter
 
-### Saving and Sharing Your Work
+### Keep Your Whole Script in One Cell
 
-**online-python.com does not save your work automatically.** If you close the tab, your code is gone. To save your work:
+As you build a script step by step, keep **all of your code in a single cell**. It's tempting to start a new cell for each new piece, but that changes how your program runs.
 
-1. Click the **Share** button at the top of the editor
-2. This generates a unique link to your code
-3. Copy and save this link — you'll submit it for your assignment
+A Colab notebook shares state across cells: a variable created in one cell stays in memory for the others, and cells only run when you run them. That means if you split your script across cells, the program's behavior depends on **which cells you've run and in what order** — re-running an older cell can pick up a stale value, and it's easy to get output that doesn't match the code in front of you.
 
-**Backup tip:** Before closing your browser, also copy your code and paste it into a note or text file on your computer. This way you have a backup if anything goes wrong with the share link.
+Keeping everything in one cell makes your script run top to bottom, every time, exactly like the `.py` file you'll submit. When you're ready to turn in your work, you'll copy the contents of that one cell into a file on GitHub.
+
+### Saving Your Work
+
+**Colab saves your work automatically to your Google Drive** as you go, so your notebook will be waiting for you the next time you sign in. You can also trigger a save yourself with **File → Save** (or Ctrl+S / Cmd+S). To find your notebook later, look in the **Colab Notebooks** folder in your Google Drive, or reopen Colab and check **File → Open notebook**.
 
 ---
 
@@ -252,7 +254,7 @@ Notice how we **chain** two methods together: `.strip().upper()` means "first re
 
 **Your First Python Program** (Programming with Mosh)
 
-[Watch from 8:49 to 22:51](https://www.youtube.com/watch?v=kqtD5dpn9C8&t=529s) — covers writing your first program, how Python executes code, and running scripts. You can skip the installation section at the start since we're using an online IDE this week.
+[Watch from 8:49 to 22:51](https://www.youtube.com/watch?v=kqtD5dpn9C8&t=529s) — covers writing your first program, how Python executes code, and running scripts. You can skip the installation section at the start since we're using Google Colab this week.
 
 ---
 
@@ -306,17 +308,17 @@ greeting = "Hello!"
 
 </details>
 
-**Question 3:** How do you save your work in online-python.com?
+**Question 3:** As you build a script step by step in Google Colab, where should your code go?
 
-* A) It saves automatically
-* B) Press Ctrl+S
-* C) Click the Share button to generate a link
-* D) Download the file to your computer
+* A) A new cell for each step, run in order
+* B) All in a single cell
+* C) It doesn't matter, since Colab shares variables across cells
+* D) One cell per variable
 
 <details>
 <summary>Answer</summary>
 
-**C) Click the Share button to generate a link** — online-python.com does not save automatically. The Share button creates a unique URL to your code that you can submit for your assignment.
+**B) All in a single cell** — Colab shares state across cells and only runs a cell when you run it, so splitting a script across cells makes its behavior depend on which cells you've run and in what order. Keeping everything in one cell makes it run top to bottom every time, just like the `.py` file you'll submit.
 
 </details>
 
@@ -324,6 +326,7 @@ greeting = "Hello!"
 
 ## Further Reading
 
-- [online-python.com](https://www.online-python.com/) — The online IDE we're using this week
+- [Google Colab](https://colab.research.google.com/) — The notebook environment we're using this week
+- [Google Colab — Welcome / intro notebook](https://colab.research.google.com/notebooks/intro.ipynb) — A short tour of how Colab notebooks and cells work
 - [W3Schools — Python Getting Started](https://www.w3schools.com/python/python_getstarted.asp)
 - [Real Python — Code Your First Python Program](https://realpython.com/courses/python-basics-first-program/)
