@@ -15,7 +15,7 @@
 
 For this first week, we'll be writing Python code in an **Google Colab** — a cloud-based environment Jupyter Notebook environment that lets you write, execute, and share Python code in the browser. You'll work with Jupyter notebooks again in Python for Data Analysis, they are a popular tool for data professionals looking to write and share code.
 
-1. Go to [colab.research.google.com](colab.research.google.com) and sign in with your Google account.
+1. Go to [colab.research.google.com](https://colab.research.google.com/) and sign in with your Google account.
 2. Click New notebook.
 3. You will see one empty box that reads "start coding". This is called a cell.
 4. Copy the sample script below into that one cell. Do not split it across several cells.
