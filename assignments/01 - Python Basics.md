@@ -2,11 +2,12 @@
 
 ## Submission Instructions
 
-This week's work is done in an **online Python IDE** at [online-python.com](https://www.online-python.com/) — we'll work on local setup next week.
+This week's work is done in **Google Colab**, a free cloud notebook you run in your browser at [colab.research.google.com](https://colab.research.google.com/) — we'll work on local setup next week.
 
-[**Here's a quick video explaining how to use online-python.com**](https://youtu.be/6GOKinRu0m0)
+<!-- TODO: replace with a short video (or written walkthrough) showing how to use Google Colab. The previous link was an online-python.com walkthrough and no longer applies. -->
 
-> **Important:** online-python.com does not save your work automatically. Before closing your browser tab, copy your code somewhere safe (a notes app or text file works fine).
+1. **Keep your whole script in one cell.** Colab lets you split code across multiple cells, but for this assignment put all of your code in a **single cell** so it runs top to bottom, just like the `.py` file you'll submit. See the Simple Scripts lesson for why this matters.
+2. **Saving:** Colab saves automatically to your Google Drive as long as you're signed in with your Google account, so your notebook will be there next time. You can also save any time with **File → Save**.
 
 When you're finished, you'll upload your code to the GitHub repository you created in Lesson 1.4 using GitHub's web editor and open a pull request. The steps below walk you through the whole process.
 
@@ -18,9 +19,9 @@ Submit two links in CTD Learns:
 
 ---
 
-### Step 1 — Copy your code from online-python.com
+### Step 1 — Copy your code from Google Colab
 
-In online-python.com, click anywhere in the editor, select all your code (**Ctrl+A** on Windows, **Cmd+A** on Mac), and copy it (**Ctrl+C** / **Cmd+C**).
+In Colab, click anywhere inside your code cell, select all of your code (**Ctrl+A** on Windows, **Cmd+A** on Mac), and copy it (**Ctrl+C** / **Cmd+C**). Because you kept everything in one cell, this grabs your entire script at once.
 
 ### Step 2 — Create a new file in your GitHub repository
 
