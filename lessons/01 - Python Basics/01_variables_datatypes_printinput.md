@@ -13,15 +13,22 @@
 
 ## Getting Started
 
-For this first week, we'll be writing Python code in an **online IDE** — a website that lets you type and run Python code directly in your browser, with no installation needed. We'll set up Python on your own computer in Week 2.
+For this first week, we'll be writing Python code in an **Google Colab** — a cloud-based environment Jupyter Notebook environment that lets you write, execute, and share Python code in the browser. You'll work with Jupyter notebooks again in Python for Data Analysis, they are a popular tool for data professionals looking to write and share code.
 
-**Go to [online-python.com](https://www.online-python.com/)** and try typing the following in the editor on the left, then click **Run**:
+1. Go to [colab.research.google.com] and sign in with your Google account.
+2. Click New notebook.
+3. You will see one empty box that reads "start coding". This is called a cell.
+4. Copy the sample script below into that one cell. Do not split it across several cells.
 
 ```python
 print("Hello, world!")
 ```
 
+5. Click the play button to the left of the cell to run your script. The first run takes a few seconds to start up.
+
 You should see `Hello, world!` appear in the output panel. Congratulations — you just ran your first Python program!
+
+Throughout the lesson, as you learn a new concept or see a new piece of code, try practicing with it in your Google Colab environment.
 
 ---
 
