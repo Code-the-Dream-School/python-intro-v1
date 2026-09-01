@@ -30,7 +30,7 @@ By the end of this course, students will be able to:
 
 Version control and CLI skills are woven into the first three weeks alongside Python content, rather than occupying a dedicated week.
 
-* Week 1: Students use an [online Python IDE](https://www.online-python.com/) since the focus is on Python syntax. A conceptual intro to version control (what/why) is included, but no tooling yet. Students upload .py file (downloaded from the IDE) for assignment submission.
+* Week 1: Students use an [Google Colab](https://colab.research.google.com/) since the focus is on Python syntax. A conceptual intro to version control (what/why) is included, but no tooling yet. Students upload .py file (downloaded from the IDE) for assignment submission.
 * Week 2: Local environment setup; CLI navigation and terminal fluency; running Python scripts from the command line; Git installation and configuration. Students paste terminal output for assignment submission.
 * Week 3: First content week (Control Flow). Students create/clone a GitHub repository and submit their assignment via first commit and PR, establishing the Git workflow for the rest of the course.
 * Weeks 4-11: Normal Git workflow
