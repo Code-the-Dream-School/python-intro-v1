@@ -41,7 +41,7 @@ If you have questions at any point, ask in the `#[class_name]-discussion` Slack 
 
 2. **[Simple Scripts](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/01%20-%20Python%20Basics/02_scripts.md)**
    
-   Writing short scripts in the online IDE; producing tangible, real-world output; saving and downloading `.py` files for submission
+   Writing short scripts in Google Colab; producing tangible, real-world output; keeping your code in a single cell to copy into a `.py` file for submission
 
 3. **[Debugging Basics](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/01%20-%20Python%20Basics/03_debugging_basics.md)**
    
