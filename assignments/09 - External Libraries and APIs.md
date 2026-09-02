@@ -96,7 +96,7 @@ Use the REST Countries API to build an interactive command-line tool. This is th
 
 **Fetch URL:**
 ```
-https://restcountries.com/v3.1/all?fields=name,capital,region,population
+https://api.restcountries.com/countries/v5?response_fields=names.official,capitals,region,population
 ```
 
 Your program should:
