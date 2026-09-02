@@ -99,6 +99,79 @@ Use the REST Countries API to build an interactive command-line tool. This is th
 https://api.restcountries.com/countries/v5?response_fields=names.official,capitals,region,population
 ```
 
+**Sample Response:**
+```
+{
+    "data": {
+        "objects": [
+            {
+                "names": {
+                    "official": "Republic of Albania"
+                },
+                "capitals": [
+                    {
+                        "attributes": {
+                            "administrative": false,
+                            "constitutional": false,
+                            "executive": false,
+                            "judicial": false,
+                            "legislative": false,
+                            "primary": true
+                        },
+                        "coordinates": {
+                            "lat": 41.32,
+                            "lng": 19.82
+                        },
+                        "name": "Tirana"
+                    }
+                ],
+                "region": "Europe",
+                "population": 2335930,
+                "_match": [
+                    {
+                        "path": "region",
+                        "value": "Europe"
+                    }
+                ],
+                "_meta": {
+                    "lastUpdatedTimestamp": 1783787495
+                }
+            },
+            {
+                "names": {
+                    "official": "Principality of Andorra"
+                },
+                "capitals": [
+                    {
+                        "attributes": {
+                            "administrative": false,
+                            "constitutional": false,
+                            "executive": false,
+                            "judicial": false,
+                            "legislative": false,
+                            "primary": true
+                        },
+                        "coordinates": {
+                            "lat": 42.5,
+                            "lng": 1.52
+                        },
+                        "name": "Andorra la Vella"
+                    }
+                ],
+                "region": "Europe",
+                "population": 89752,
+                "_match": [
+                    {
+                        "path": "region",
+                        "value": "Europe"
+                    }
+                ],
+                "_meta": {
+                    "lastUpdatedTimestamp": 1786028454
+                }
+            },...
+```
+
 Your program should:
 
 1. Fetch all countries from the API when the script starts. Parse the JSON into a list of dictionaries, each with these keys: `name`, `capital`, `region`, `population`.
@@ -159,7 +232,7 @@ Include the video link in your pull request description or the `URL1` field in t
 
 ## Review: The GitHub Cycle
 
-This is your repeatable workflow for every assignment. Wherever you see `assignment-N`, replace `N` with the current assignment number (e.g. `assignment-3`) and use the same branch name in every command for that assignment. 
+This is your repeatable workflow for every assignment. Wherever you see `assignment-N`, replace `N` with the current assignment number (e.g. `assignment-3`) and use the same branch name in every command for that assignment.
 
 **Get a clean starting point:**
 
