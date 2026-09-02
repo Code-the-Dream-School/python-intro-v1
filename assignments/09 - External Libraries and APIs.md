@@ -58,7 +58,7 @@ Birthday: Not available
 Fetch from this endpoint, which returns a list of countries in Europe:
 
 ```
-https://restcountries.com/v3.1/region/europe?fields=name,population
+https://api.restcountries.com/countries/v5/region/Europe?response_fields=names.official,population
 ```
 
 Loop through the response list and print the common name of each country on its own line. Print only the first 10 results.
