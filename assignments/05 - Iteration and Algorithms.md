@@ -5,8 +5,8 @@
 1. **Create your branch:** From `main`, create a new `assignment-5` branch in your `python-intro-homework` repo.
 2. **Create your folder:** Inside `week-5/`, create a new `assignment-5/` folder and do all your work there.
 3. **Submit two links in CTD Learns:**
-   - **URL1:** A link to your pull request from `assignment-5` into `main`
-   - **URL2:** A link to your video reflection
+   - **Link to assignment:** A link to your pull request from `assignment-5` into `main`
+   - **Second link to assignment:** A link to your video reflection
 
 The PR URL should look like `github.com/your-username/python-intro-homework/pull/[number]`, *not the link to your repo homepage*.
 
@@ -141,7 +141,7 @@ Your video should address the following questions. You don't need to cover every
 - Use screen sharing to walk through your code when relevant
 - Speak in your own words — no need to read from a script
 
-Include the video link in your pull request description or the `URL1` field in the submission form.
+Include the video link in your pull request description or the **Second link to assignment** field in the submission form.
 
 ---
 
@@ -173,7 +173,7 @@ Repeat `add → commit → push` as often as you like. Committing often gives yo
 
 On GitHub, open a pull request from `assignment-N` into main. Confirm the base repository is your own fork (`your-username/python-intro-homework`), not `Code-the-Dream-School`.
 
-**Close the looop:**
+**Close the loop:**
 
 ```
 git checkout main
@@ -184,4 +184,26 @@ git pull origin main          # bring the merged changes back to your local mach
 
 * Committed to main by accident? (You forgot to create your branch first.) Make the branch now: `git checkout -b assignment-N` carries your latest commits with it, then continue. Your work isn't lost.
 * `git push` says your branch has "no upstream"? You haven't pushed this branch before. Run `git push origin assignment-N` to create it on your fork.
-```
+
+---
+
+<details>
+<summary>Rubric (for AirHub reviewer and mentors)</summary>
+
+This repo is cumulative — earlier weeks' folders (`week-1`, etc.) are expected to remain; this assignment adds `week-5/assignment-5/`. Do not fault the student for prior-week folders.
+
+### Required Deliverables/Tasks
+
+- **Warmup 1 (`warmup1.py`)** — a `for` loop with `range()` summing the integers 1–100, printing the result. The message wording is `Example — adapt to your own layout`; the correct value is 5050.
+- **Warmup 2 (`warmup2.py`)** — a `while` loop that re-asks until it receives a positive integer, printing a rejection message on invalid input and accepting a valid one. Prompt/message strings and the sample transcript are `Example — adapt to your own layout` — grade the behavior, not the exact wording.
+- **Warmup 3 (`warmup3.py`)** — a hardcoded list of names; ask for a name; implement the search with a loop, printing the index if found or a not-found message. **No `.index()` and no `in` operator** (required). The sample name/index are `Example — adapt to your own layout` (they depend on the student's list).
+- **Warmup 4 (`warmup4.py`)** — loop 1–30, printing one word per line per the divisibility rules. The strings `"FizzBuzz"`, `"Fizz"`, and `"Buzz"` `Use exactly as written (later tasks depend on these names)`.
+- **Mini-Project (`mini_project.py`)** — copy the `numbers` list from the provided `week-5/data/numbers.py`; build a `while`-loop menu (1 min / 2 max / 3 search / 4 sort / 5 quit) that redisplays until the user quits. Required constraints: **no `min()`, no `max()`, no `sorted()`/`.sort()`** — implement bubble sort. The `numbers` contents come from the provided file — `Example — adapt to your own layout`; do not fail on specific list values or the file path (the reviewer can't see the provided file or the filesystem).
+- **Video Reflection** — a 3–5 minute video answering the three listed questions; submit the link as the **Second link to assignment** (or in the PR description).
+- **Submission** — an `assignment-5` branch and a pull request into `main`, with work under `week-5/assignment-5/` (the **Link to assignment**). Branch and folder names used as written; folder layout is `Example — adapt to your own layout` (the reviewer can't verify it — do not fail on paths).
+
+### Optional Deliverables/Tasks
+
+**None.**
+
+</details>
