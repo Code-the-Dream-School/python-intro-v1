@@ -1,4 +1,4 @@
-## Overall Learning Objectives
+## Python Intro Learning Objectives
 
 By the end of this course, students will be able to:
 
