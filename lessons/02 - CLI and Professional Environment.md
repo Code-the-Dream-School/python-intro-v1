@@ -15,15 +15,15 @@ This week, I can...
 
 ## Topics
 
-1. **[Local Python Setup & VS Code](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/02%20-%20CLI%20and%20Professional%20Environment/01_python_local_setup.md)**
-
-   Installing Python locally; installing the VS Code Python extension; verifying installation; creating and running a `.py` file
-   from VS Code
-
-3. **[CLI Navigation](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/02%20-%20CLI%20and%20Professional%20Environment/02_cli_navigation.md)**
+1. **[CLI Navigation](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/02%20-%20CLI%20and%20Professional%20Environment/02_cli_navigation.md)**
 
    What the terminal/command line is; essential commands: `pwd`, `ls`/`dir`, `cd`, `mkdir`; file paths (absolute vs. relative);
    understanding the role of the terminal in a professional development workflow
+
+3. **[Local Python Setup & VS Code](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/02%20-%20CLI%20and%20Professional%20Environment/01_python_local_setup.md)**
+
+   Installing Python locally; installing the VS Code Python extension; verifying installation; creating and running a `.py` file
+   from VS Code
 
 5. **[Running Python Scripts from the Command Line](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/02%20-%20CLI%20and%20Professional%20Environment/03_running_scripts.md)**
 
