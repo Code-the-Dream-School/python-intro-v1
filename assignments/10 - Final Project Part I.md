@@ -60,7 +60,7 @@ Upload to YouTube (unlisted) or Loom and paste the link in your PR description.
 
 ## Guidelines
 
-> Note that these guidelines is only the final project Part I. Next week contains the extension guidelines.
+> Note that these guidelines are only for the final project Part I. Next week contains the extension guidelines.
 
 | Category | Does Not Meet | Meets | Exceeds |
 |---|---|---|---|
