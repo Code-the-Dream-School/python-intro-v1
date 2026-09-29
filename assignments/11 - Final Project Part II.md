@@ -68,9 +68,9 @@ Upload to YouTube (unlisted) or Loom.
 
 ---
 
-## Rubric
+## Guidelines
 
-> Note that this is the Part II rubric. The full final project rubric is in the [Final Project Overview](https://github.com/Code-the-Dream-School/intro-to-python-v1/blob/main/resources/final-project-overview.md).
+> Note that these guidelines are for Part II. The full final project guidelines are in the [Final Project Overview](https://github.com/Code-the-Dream-School/intro-to-python-v1/blob/main/resources/final-project-overview.md).
 
 | Category | Does Not Meet | Meets | Exceeds |
 |---|---|---|---|
