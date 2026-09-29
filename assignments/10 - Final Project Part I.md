@@ -58,9 +58,9 @@ Upload to YouTube (unlisted) or Loom and paste the link in your PR description.
 
 ---
 
-## Rubric
+## Guidelines
 
-> Note that this is only the final project Part I rubric. Next week contains the extension rubric.
+> Note that these guidelines is only the final project Part I. Next week contains the extension guidelines.
 
 | Category | Does Not Meet | Meets | Exceeds |
 |---|---|---|---|
