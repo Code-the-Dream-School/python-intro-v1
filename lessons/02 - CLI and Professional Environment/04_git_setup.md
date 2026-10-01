@@ -1,27 +1,12 @@
-# Git Setup & Configuration
+# Git Configuration
 
 Last week you created a personal repository (`firstname-lastname-python`) and submitted Assignment 1 into it through GitHub's website. That repository was just for Week 1. **From this week on, all of your homework lives in a single shared repository maintained by Code the Dream** — you'll make your own copy of it (a **fork**) and work in that copy for the rest of the course. You can leave the Week 1 repo alone; you won't need it again.
 
-This week you'll install Git on your computer, connect it to your GitHub account, and **fork and clone** the homework repository so that a local copy lives on your machine. By the end of the week, your local machine and GitHub will be in sync and you'll be ready to start committing real code.
+This week you'll install Git on your computer (done in part 1 of this lesson), connect it to your GitHub account (done in this step), and **fork and clone** the homework repository so that a local copy lives on your machine. By the end of the week, your local machine and GitHub will be in sync and you'll be ready to start committing real code.
 
-## Installing and Configuring Git
+## Configuring Git
 
-Follow the steps below to install Git and tell it who you are.
-
-### Install Git
-
-- [The Odin Project – Setting Up Git](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/setting-up-git)
-
-If you are on Windows, the Odin page does not include a direct link to the installer. You can find it here:
-- [Git for Windows](https://git-scm.com/downloads/win)
-
-After installing, open your terminal (or VS Code's built-in terminal) and confirm it worked:
-
-```bash
-git --version
-```
-
-You should see something like `git version 2.x.x`. If you see a version number, Git is installed.
+Follow the steps below to tell Git who you are.
 
 ### Configure Your Identity
 

@@ -15,22 +15,26 @@ This week, I can...
 
 ## Topics
 
-1. **[Local Python Setup & VS Code](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/02%20-%20CLI%20and%20Professional%20Environment/01_python_local_setup.md)**
+1. **[Install Git](https://github.com/Code-the-Dream-School/python-intro-v1/blob/62ef1382a91dc25fb38a3a86f7ce2d10b72bd6b9/lessons/02%20-%20CLI%20and%20Professional%20Environment/01a_git_install.md)**
 
-   Installing Python locally; installing the VS Code Python extension; verifying installation; creating and running a `.py` file
-   from VS Code
+   Installing git and verifying the install was successful
 
-3. **[CLI Navigation](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/02%20-%20CLI%20and%20Professional%20Environment/02_cli_navigation.md)**
+2. **[CLI Navigation](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/02%20-%20CLI%20and%20Professional%20Environment/02_cli_navigation.md)**
 
    What the terminal/command line is; essential commands: `pwd`, `ls`/`dir`, `cd`, `mkdir`; file paths (absolute vs. relative);
    understanding the role of the terminal in a professional development workflow
+
+3. **[Local Python Setup & VS Code](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/02%20-%20CLI%20and%20Professional%20Environment/01_python_local_setup.md)**
+
+   Installing Python locally; installing the VS Code Python extension; verifying installation; creating and running a `.py` file
+   from VS Code
 
 5. **[Running Python Scripts from the Command Line](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/02%20-%20CLI%20and%20Professional%20Environment/03_running_scripts.md)**
 
    Navigating to a project folder in the terminal; running `python script.py`; understanding stdout; script submission workflow
    going forward
 
-7. **[Git Setup & Configuration](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/02%20-%20CLI%20and%20Professional%20Environment/04_git_setup.md)**
+7. **[Git Configuration](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/02%20-%20CLI%20and%20Professional%20Environment/04_git_setup.md)**
 
-   Installing Git; configuring `user.name` and `user.email`; understanding what a commit is conceptually; distinction between Git (local)
+   Configuring `user.name` and `user.email` in git; understanding what a commit is conceptually; distinction between Git (local)
    and GitHub (remote)

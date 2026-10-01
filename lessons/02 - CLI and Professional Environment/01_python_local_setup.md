@@ -139,7 +139,12 @@ Once activated, you'll see `(.venv)` at the start of your terminal prompt. **Thi
 
 ## 5. Set Up VS Code for Python
 
-VS Code works well for Python development and is what this class uses. A few things to configure:
+VS Code works well for Python development and is what this class uses. VS Code is an **IDE (Integrated Development Environment)**. IDEs are helpful programs that combine several tools (a text editor to write/revise your code, the command line/terminal, file organization, and more) into one program. If you are new to using IDEs, or new to VS Code as an IDE, watch the video below and install VS Code and the suggested extensions/interpreters below:
+
+* [Visual Studio Code Info Session with Shawn Clary](https://www.youtube.com/watch?v=R8lusLkuWJQ)
+  _NOTE: The above video was made for students in the JavaScript Intro class, but the installation would work the same way, and you may find other items this video highlights useful._
+
+A few things to configure:
 
 - **Install the Python extension** from the VS Code Extensions panel (search for "Python" by Microsoft)
 
