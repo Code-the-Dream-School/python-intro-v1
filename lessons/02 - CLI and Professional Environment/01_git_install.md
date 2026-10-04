@@ -9,10 +9,3 @@ In the final step of this lesson you will configure git settings.  Before you ca
 If you are on Windows, the Odin page does not include a direct link to the installer. You can find it here:
 - [Git for Windows](https://git-scm.com/downloads/win)
 
-After installing, open your terminal and confirm it worked:
-
-```bash
-git --version
-```
-
-You should see something like `git version 2.x.x`. If you see a version number, Git is installed.

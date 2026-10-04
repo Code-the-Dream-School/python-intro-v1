@@ -1,4 +1,14 @@
-# Git Configuration
+#Verify Git Installation
+From terminal window:
+After installing, open your terminal and confirm it worked:
+
+```bash
+git --version
+```
+
+You should see something like `git version 2.x.x`. If you see a version number, Git is installed.
+
+#Git Configuration
 
 Last week you created a personal repository (`firstname-lastname-python`) and submitted Assignment 1 into it through GitHub's website. That repository was just for Week 1. **From this week on, all of your homework lives in a single shared repository maintained by Code the Dream** — you'll make your own copy of it (a **fork**) and work in that copy for the rest of the course. You can leave the Week 1 repo alone; you won't need it again.
 

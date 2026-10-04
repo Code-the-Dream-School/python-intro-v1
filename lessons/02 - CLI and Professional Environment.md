@@ -8,14 +8,15 @@ Up until now, you've been writing code in a browser and using GitHub's web edito
 
 This week, I can...
 
-* Install Python and VS Code and verify that both are working.
+* Install git
 * Navigate my file system using terminal commands (`pwd`, `ls`, `cd`, `mkdir`).
+* Install Python and VS Code and verify that both are working.
 * Run a Python script from the command line.
 * Configure Git with my name and email and explain the difference between Git and GitHub.
 
 ## Topics
 
-1. **[Install Git](https://github.com/Code-the-Dream-School/python-intro-v1/blob/62ef1382a91dc25fb38a3a86f7ce2d10b72bd6b9/lessons/02%20-%20CLI%20and%20Professional%20Environment/01a_git_install.md)**
+1. **[Install Git](https://github.com/Code-the-Dream-School/python-intro-v1/blob/62ef1382a91dc25fb38a3a86f7ce2d10b72bd6b9/lessons/02%20-%20CLI%20and%20Professional%20Environment/01_git_install.md)**
 
    Installing git and verifying the install was successful
 
@@ -24,17 +25,17 @@ This week, I can...
    What the terminal/command line is; essential commands: `pwd`, `ls`/`dir`, `cd`, `mkdir`; file paths (absolute vs. relative);
    understanding the role of the terminal in a professional development workflow
 
-3. **[Local Python Setup & VS Code](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/02%20-%20CLI%20and%20Professional%20Environment/01_python_local_setup.md)**
+3. **[Local Python Setup & VS Code](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/02%20-%20CLI%20and%20Professional%20Environment/03_python_local_setup.md)**
 
    Installing Python locally; installing the VS Code Python extension; verifying installation; creating and running a `.py` file
    from VS Code
 
-5. **[Running Python Scripts from the Command Line](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/02%20-%20CLI%20and%20Professional%20Environment/03_running_scripts.md)**
+5. **[Running Python Scripts from the Command Line](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/02%20-%20CLI%20and%20Professional%20Environment/04_running_scripts.md)**
 
    Navigating to a project folder in the terminal; running `python script.py`; understanding stdout; script submission workflow
    going forward
 
-7. **[Git Configuration](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/02%20-%20CLI%20and%20Professional%20Environment/04_git_setup.md)**
+7. **[Git Configuration](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/02%20-%20CLI%20and%20Professional%20Environment/05_git_setup.md)**
 
    Configuring `user.name` and `user.email` in git; understanding what a commit is conceptually; distinction between Git (local)
    and GitHub (remote)
