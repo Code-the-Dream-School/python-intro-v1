@@ -15,7 +15,7 @@ This week, I can...
 
 ## Topics
 
-1. **[Install Git](https://github.com/Code-the-Dream-School/python-intro-v1/blob/62ef1382a91dc25fb38a3a86f7ce2d10b72bd6b9/lessons/02%20-%20CLI%20and%20Professional%20Environment/01_git_install.md)**
+1. **[Install Git](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/02%20-%20CLI%20and%20Professional%20Environment/01_git_install.md)**
 
    Installing git and verifying the install was successful
 
