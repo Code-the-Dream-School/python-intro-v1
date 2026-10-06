@@ -9,7 +9,7 @@ This assignment assumes you've completed the setup steps from this week's lesson
 
 All of your work this week happens inside your **local clone of your fork**: the `python-intro-homework` folder on your computer. When you check the address of your repo, it should read `github.com/your-username/python-intro-homework`, with *your* username, not `Code-the-Dream-School`.
 
-If you haven't forked and cloned yet, stop and complete the ["Forking and Cloning the Homework Repository" section](https://github.com/Code-the-Dream-School/python-intro-v1/blob/main/lessons/02%20-%20CLI%20and%20Professional%20Environment/04_git_setup.md) of the setup lesson first.
+If you haven't forked and cloned yet, stop and complete the ["Forking and Cloning the Homework Repository" section](https://github.com/Code-the-Dream-School/python-intro-v1/blob/92a0e1a83e71dc7ca5bf1bc14d67c3bb1948ed46/lessons/02%20-%20CLI%20and%20Professional%20Environment/05_git_configuration.md) of the setup lesson first.
 
 ## Submission Instructions
 
