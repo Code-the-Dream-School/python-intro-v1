@@ -1,0 +1,7 @@
+# Python Intro Course Dependencies
+
+# API Requests (Week 9, 10, 11)
+requests>=2.31.0
+
+# Data Visualization (Week 11 - Option A)
+matplotlib>=3.7.0
