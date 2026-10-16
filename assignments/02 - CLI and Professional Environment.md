@@ -1,11 +1,35 @@
 # Assignment 2 — CLI & Professional Environment
 
-## Before You Start: You Should Already Have Forked and Cloned
+# Before You Start: 
+
+## (1) Finalize last week's assignment
+
+Last week we had you use GitHub Colab to create your first python code. Since you had not yet learned about git version control and git workflows, we had you create a file in a GitHub repository, on an assignment-1 branch to be able to submit your work as a python file that could be checked. 
+
+### Why did we have you make a branch at all?
+
+In development, when you build a product for users, you typically have a "production" branch which holds the current working version (that users see and interact with) and a "testing" or "staging" branch so you can try out changes to a product without negatively impacting the users.  Afterall, it would be pretty alarming if the tool you were using changed while you were using it!  Branches allow developers to make fixes and improvements to their code without the user being effected by the changes while they're happening.  
+
+### What do you do with a branch?
+
+Once a branch has been tested or checked, developers will merge the testing or staging branch (or in your case the assignment-1 branch) to the production or main branch of a repository.  This means users will now be able to benefit from the changes you made.
+
+### So what do I do with my branch from assignment 1?
+
+If your Lesson 1 assignment was successful when you submitted last week, you can return to that repository and merge the `assignment-1` branch into the `main` branch.  Do this by clicking on the "Pull Requests" tab of your repository, then clicking on your pull request for assignment 1.  You should see a box that indicates "No conflicts with base branch".  This means the code you want to merge from assignment-1 to main won't overwrite or break anything already in main.  Click the green "Merge pull request" button. Then click the "Confirm merge" button. Now your main and your assignment-1 branch are identical.
+
+If you had a "needs revisions" result on your assignment, be sure to make your corrections before merging.  
+
+## (2) You Should Already Have Forked and Cloned
 
 This assignment assumes you've completed the setup steps from this week's lesson, specifically that you have:
 
 1. **Forked** the shared `Code-the-Dream-School/python-intro-homework` repository to your own GitHub account, and
 2. **Cloned your fork** to your local machine.
+
+### Why did we fork and clone?
+
+Making a fork allows you to get your own copy of the code we have in the python-intro-homework repository in our school's account.  Some weeks you may have starter code you need to work with, so forking makes sure you have a copy of all of that.  Cloning takes the copy you forked, and makes that copy editable on your local machine.  It also creates a connection between your local machine and the GitHub repository you have on the web which allows you to share your local work publicly.
 
 All of your work this week happens inside your **local clone of your fork**: the `python-intro-homework` folder on your computer. When you check the address of your repo, it should read `github.com/your-username/python-intro-homework`, with *your* username, not `Code-the-Dream-School`.
 
