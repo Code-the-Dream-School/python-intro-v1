@@ -2,9 +2,12 @@
 
 ## Submission Instructions
 
-1. **Create your branch:** From `main`, create a new `assignment-4` branch in your `python-intro-homework` repo.
-2. **Create your folder:** Inside `week-4/`, create a new `assignment-4/` folder and do all your work there.
-3. **Submit two links in CTD Learns:**
+1. **Make sure main is up to date:** 
+      a. If your assignment last week was successful, be sure that you have merged your open Pull Request.  This will update the `main` branch with your `assignment-3` work so your main branch has a record of all your completed assignments to date. 
+      b. In your terminal, use the `git pull origin main` command so your local `main` matches your GitHub `main`.
+2. **Create your branch:** From `main`, create a new `assignment-4` branch in your `python-intro-homework` repo.
+3. **Create your folder:** Inside `week-4/`, create a new `assignment-4/` folder and do all your work there.
+4. **Submit two links in CTD Learns:**
    - **URL1:** A link to your pull request from `assignment-4` into `main`
    - **URL2:** A link to your video reflection
 
@@ -107,14 +110,14 @@ Include the video link in the `URL2` field in the submission form.
 
 ## Review: The GitHub Cycle
 
-This is your repeatable workflow for every assignment. Wherever you see `assignment-N`, replace `N` with the current assignment number (e.g. `assignment-3`) and use the same branch name in every command for that assignment. 
+This is your repeatable workflow for every assignment. Wherever you see `assignment-N`, replace `N` with the current assignment number (e.g. `assignment-4`) and use the same branch name in every command for that assignment. 
 
 **Get a clean starting point:**
 
 ```bash
 git checkout main
 git pull origin main
-git checkout -b assignment-N   # replace N: e.g. assignment-3
+git checkout -b assignment-N   # replace N: e.g. assignment-4
 ```
 
 `origin` is your fork. `git pull origin main` syncs your local main with your fork on GitHub; it's normal to see "Already up to date."
@@ -134,7 +137,19 @@ Repeat `add → commit → push` as often as you like. Committing often gives yo
 
 On GitHub, open a pull request from `assignment-N` into main. Confirm the base repository is your own fork (`your-username/python-intro-homework`), not `Code-the-Dream-School`.
 
+**Submit your assignment:**
+
+Use the button on the bottom of your lesson page to submit the link to your pull request.
+
 **Close the loop:**
+
+Assignment successful? You can merge your Pull Request.  
+
+Assignment needs revisions?  Make your corrections on your local branch, and be sure to add, commit, and push them.  No need for a new pull request, when you push the changes your open pull request will reflect those new changes.  Resubmit your work the same way you first submitted - same pull request link too! - and you should see success.  
+
+Problems?  Remember to connect with 1:1 mentors if you are experiencing any trouble with this GitHub Cycle.
+
+Once you merge your pull request, be sure your local `main` branch also gets updated by running the following locally in your terminal:
 
 ```bash
 git checkout main
