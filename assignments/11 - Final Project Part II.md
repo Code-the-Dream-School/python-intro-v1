@@ -114,7 +114,13 @@ Repeat `add → commit → push` as often as you like. Committing often gives yo
 
 On GitHub, open a pull request from `week-10-final-project` into main. Confirm the base repository is your own fork (`your-username/python-intro-homework`), not `Code-the-Dream-School`.
 
+> **NOTE: In previous weeks you would submit your pull request, merge it, and build on that work the following week.  This week is the** 
+> **last week of class, so your project will be finalized this week.  Instead of submitting a pull request for AI to review, you will**
+> **submit the main repository link instead. The following instructions reflect the new order of your usual process to achieve this.**
+
 **Close the loop:**
+
+You should see "No Conflicts" on your open pull request. If this is the case, merge your pull request now so all of your final work for the course is on the main branch. Once you merge your pull request, be sure your local `main` branch also gets updated by running the following locally in your terminal:
 
 ```bash
 git checkout main
@@ -125,6 +131,10 @@ git pull origin main          # bring the merged changes back to your local mach
 
 * Committed to main by accident? (You forgot to switch to your project branch first.) If you have not made the branch yet, `git checkout -b week-10-final-project` carries your latest commits with it. If the branch already exists from Week 10, switch to it with `git checkout week-10-final-project` and ask your CIL for help moving those commits. Your work isn't lost either way.
 * `git push` says your branch has "no upstream"? You haven't pushed this branch before. Run `git push origin week-10-final-project` to create it on your fork.
+
+**Submit your work:**
+Use the button on the bottom of your lesson page to submit the link to your repository.  The link you submit should look similar to this: `https://github.com/yourUsername/yourRepositoryName` where `yourUsername` is your GitHub username and `yourRepositoryName` is the name of the repository that holds all of your final project work. **NOTE:** This is different from all past weeks in that you are submitting a repository link not a pull request link. 
+
 </details>
 
 ## 🎉 Congrats on submitting your Python Intro final project!

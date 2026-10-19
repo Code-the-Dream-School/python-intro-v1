@@ -107,7 +107,19 @@ Repeat `add → commit → push` as often as you like. Committing often gives yo
 
 On GitHub, open a pull request from `week-10-final-project` into main. Confirm the base repository is your own fork (`your-username/python-intro-homework`), not `Code-the-Dream-School`.
 
+**Submit your assignment:**
+
+Use the button on the bottom of your lesson page to submit the link to your pull request.
+
 **Close the loop:**
+
+Assignment successful? You can merge your Pull Request.  
+
+Assignment needs revisions?  Make your corrections on your local branch, and be sure to add, commit, and push them.  No need for a new pull request, when you push the changes your open pull request will reflect those new changes.  Resubmit your work the same way you first submitted - same pull request link too! - and you should see success.  
+
+Problems?  Remember to connect with 1:1 mentors if you are experiencing any trouble with this GitHub Cycle.
+
+Once you merge your pull request, be sure your local `main` branch also gets updated by running the following locally in your terminal:
 
 ```bash
 git checkout main
