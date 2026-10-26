@@ -248,6 +248,10 @@ Both use a nested loop, and both are much slower than Python's built-in `sort()`
 
 For the same list, bubble sort usually performs more swaps than selection sort — one reason it's rarely used in practice, even though it's one of the most commonly taught sorting algorithms.
 
+### Video: Bubble Sort
+
+Watch [this video](https://drive.google.com/file/d/1Ffs8cedkjSBVLi7jCk7LSWEQK4r1R0VT/view?usp=drive_link) from CTD Mentor Saverio N. for a recap of bubble sort.
+
 ### Check Your Understanding
 
 **Question 4:** After the first full pass of bubble sort, which item is guaranteed to be in its final position?
@@ -308,8 +312,11 @@ The value of implementing search and sort manually is understanding **how** they
 ## Videos
 
 **"Linear and Binary Search Algorithms Explained in Python"**
-
 [Watch the video](https://www.youtube.com/watch?v=u46nNK4lmeE) for a clear visual explanation of how linear search and binary search work, with full Python implementations.
+
+**Bubble Sort** | Saverio N.
+[Watch the video](https://drive.google.com/file/d/1Ffs8cedkjSBVLi7jCk7LSWEQK4r1R0VT/view?usp=drive_link) for an recap of bubble sort.
+
 
 ---
 
